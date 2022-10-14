@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Calculadora</h2>
+    <form method="post" action="calculadora.php">
+
+       nombre: <input type="text" name="nombre" required>*obligatorio
+        <br><br>
+        apellido1: <input type="text" name="apellido1">
+        <br><br>
+        apellido2: <input type="text" name="apellido2">
+        <br><br>
+        E-mail: <input type="text" name="email" required>*obligatorio
+        <br><br>
+            Selecciona la operacion:
+            <br><br>
+            <input type="radio" name="genero" value="suma" required>Mujer
+            
+            <input type="radio" name="genero" value="resta">Hombre *obligatorio
+           
+        <br><br>
+        <input type="submit" name="submit" value="enviar">
+        <br><br>
+        <input type="reset" name="reset" value="Borrar">
+    </form>
+
+</body>
+</html>
+
